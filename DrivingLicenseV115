@@ -5,13 +5,12 @@
     "attr1": "https://ssi.globalid.dev/v1/credentials-library/attributes/",
     "name": "attr1:name",
     "description": "attr1:description",
-    "DrivingLicense": {
-      "@id": "https://ssi.globalid.dev/v1/schema-registry/contexts/Driving%20license/versions/1#Driving%20license",
-      "@context": {
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "attr": "https://ssi.globalid.dev/v1/credentials-library/attributes/",
-        "img": "https://raw.githubusercontent.com/acuderman/test-didcomm/main/Image2",
-        "data_file": {
+    "Driving license": {
+            "@id": "https://ssi.globalid.dev/v1/schema-registry/contexts/Driving%20license/versions/1#Driving%20license",
+            "@context": {
+                "xsd": "http://www.w3.org/2001/XMLSchema#",
+                "attr": "https://ssi.globalid.dev/v1/credentials-library/attributes/",
+                "data_file": {
                     "@id": "attr:data_file",
                     "@type": "@id"
                 },
@@ -45,8 +44,8 @@
                 "date_of_birth_timestamp": "attr:date_of_birth_timestamp",
                 "document_expiration_date": "attr:document_expiration_date",
                 "document_country_of_issue": "attr:document_country_of_issue"
-      }
-    },
+            }
+        },
     "imagejpeg": {
       "@id": "https://github.com/acuderman/test-didcomm/edit/main/Image2#imagejpeg",
       "@context": {
