@@ -9,7 +9,7 @@
         "ex": "https://example.org/examples#",
         "url": "attr:full_name_legal",
         "sha512sum": "attr:full_name_legal",
-        "decryptionKey": "attr:last_name_legal",
+        "decryptionKey": "attr:last_name_legal"
       }
     }
   }
