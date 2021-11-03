@@ -20,10 +20,7 @@
           "@id": "attr:selfie_image",
           "@type": "@id"
         },
-        "selfie_video": {
-          "@id": "attr:selfie_video",
-          "@type": "@id"
-        },
+        "selfie_video": "attr:selfie_video",
         "date_of_birth": {
           "@id": "attr:date_of_birth",
           "@type": "xsd:date"
@@ -32,14 +29,8 @@
         "full_name_legal": "attr:full_name_legal",
         "last_name_legal": "attr:last_name_legal",
         "first_name_legal": "attr:first_name_legal",
-        "document_back_image": {
-          "@id": "attr:document_back_image",
-          "@type": "@id"
-        },
-        "document_front_image": {
-          "@id": "attr:document_front_image",
-          "@type": "@id"
-        },
+        "document_back_image": "attr:document_back_image",
+        "document_front_image": "attr:document_front_image",
         "document_date_of_issue": "attr:document_date_of_issue",
         "date_of_birth_timestamp": "attr:date_of_birth_timestamp",
         "document_expiration_date": "attr:document_expiration_date",
