@@ -18,8 +18,8 @@
                 "address_home": "attr:address_home",
                 "gender_legal": "attr:gender_legal",
                 "selfie_image": {
-                    "@id": "img:imagejpeg",
-                    "@type": "@id"
+                    "@id": "attr:selfie_image",
+                    "@type": "img:imagejpeg"
                 },
                 "selfie_video": {
                     "@id": "img:imagejpeg",
@@ -38,8 +38,8 @@
                     "@type": "@id"
                 },
                 "document_front_image": {
-                    "@id": "img:imagejpeg",
-                    "@type": "@id"
+                    "@id": "attr:document_front_image",
+                    "@type": "img:imagejpeg"
                 },
                 "document_date_of_issue": "attr:document_date_of_issue",
                 "date_of_birth_timestamp": "attr:date_of_birth_timestamp",
