@@ -15,10 +15,7 @@
                 },
                 "address_home": "attr:address_home",
                 "gender_legal": "attr:gender_legal",
-                "selfie_image": {
-                    "@id": "attr:selfie_image",
-                    "@type": "@id"
-                },
+                "selfie_image": "attr:selfie_image",
                 "selfie_video": {
                     "@id": "attr:selfie_video",
                     "@type": "@id"
