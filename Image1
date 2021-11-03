@@ -1,7 +1,7 @@
 {
   "@id": "https://ssi.globalid.dev/v1/schema-registry/contexts/Driving%20license/versions/1",
   "@context": {
-    "image/jpeg": {
+    "imagejpeg": {
       "@id": "https://ssi.globalid.dev/v1/schema-registry/contexts/Driving%20license/versions/1#Driving%20license",
       "@context": {
         "xsd": "http://www.w3.org/2001/XMLSchema#",
