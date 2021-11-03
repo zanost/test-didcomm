@@ -15,7 +15,12 @@
                 },
                 "address_home": "attr:address_home",
                 "gender_legal": "attr:gender_legal",
-                "selfie_image": "attr:selfie_image",
+                "selfie_image": {
+                  "type": "attr:address_home",
+                  "url": "attr:address_home",
+                  "sha512sum": "attr:address_home",
+                  "decryptionKey": "attr:address_home",
+                },
                 "selfie_video": {
                     "@id": "attr:selfie_video",
                     "@type": "@id"
@@ -28,8 +33,18 @@
                 "full_name_legal": "attr:full_name_legal",
                 "last_name_legal": "attr:last_name_legal",
                 "first_name_legal": "attr:first_name_legal",
-                "document_back_image": "attr:document_back_image",
-                "document_front_image": "attr:document_front_image",
+                "document_back_image": {
+                  "type": "attr:address_home",
+                  "url": "attr:address_home",
+                  "sha512sum": "attr:address_home",
+                  "decryptionKey": "attr:address_home",
+                },,
+                "document_front_image": {
+                  "type": "attr:address_home",
+                  "url": "attr:address_home",
+                  "sha512sum": "attr:address_home",
+                  "decryptionKey": "attr:address_home",
+                },,
                 "document_date_of_issue": "attr:document_date_of_issue",
                 "date_of_birth_timestamp": "attr:date_of_birth_timestamp",
                 "document_expiration_date": "attr:document_expiration_date",
