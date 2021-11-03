@@ -1,0 +1,15 @@
+{
+  "@id": "https://github.com/acuderman/test-didcomm/edit/main/Image2",
+  "@context": {
+    "imagejpeg": {
+      "@id": "https://github.com/acuderman/test-didcomm/edit/main/Image2#imagejpeg",
+      "@context": {
+        "attr": "https://ssi.globalid.dev/v1/credentials-library/attributes/",
+
+        "url": "attr:full_name_legal",
+        "sha512sum": "attr:full_name_legal",
+        "decryptionKey": "attr:last_name_legal"
+      }
+    }
+  }
+}
