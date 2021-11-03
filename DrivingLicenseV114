@@ -47,6 +47,15 @@
                 "document_country_of_issue": "attr:document_country_of_issue"
       }
     },
-    "imagejpeg": "ex:imagejpeg"
+    "imagejpeg": {
+      "@id": "https://github.com/acuderman/test-didcomm/edit/main/Image2#imagejpeg",
+      "@context": {
+        "attr": "https://ssi.globalid.dev/v1/credentials-library/attributes/",
+
+        "url": "attr:url",
+        "sha512sum": "attr:sha512sum",
+        "decryptionKey": "attr:decryptionKey"
+      }
+    }
   }
 }
