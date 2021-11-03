@@ -19,10 +19,10 @@
                 "gender_legal": "attr:gender_legal",
                 "selfie_image": {
                     "@id": "attr:selfie_image",
-                    "@type": "img:imagejpeg"
+                    "@type": "@id"
                 },
                 "selfie_video": {
-                    "@id": "img:imagejpeg",
+                    "@id": "attr:selfie_video",
                     "@type": "@id"
                 },
                 "date_of_birth": {
@@ -34,12 +34,12 @@
                 "last_name_legal": "attr:last_name_legal",
                 "first_name_legal": "attr:first_name_legal",
                 "document_back_image": {
-                    "@id": "img:imagejpeg",
+                    "@id": "attr:document_back_image",
                     "@type": "@id"
                 },
                 "document_front_image": {
                     "@id": "attr:document_front_image",
-                    "@type": "img:imagejpeg"
+                    "@type": "@id"
                 },
                 "document_date_of_issue": "attr:document_date_of_issue",
                 "date_of_birth_timestamp": "attr:date_of_birth_timestamp",
