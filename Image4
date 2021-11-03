@@ -6,9 +6,9 @@
       "@context": {
         "attr": "https://ssi.globalid.dev/v1/credentials-library/attributes/",
 
-        "url": "attr:full_name_legal",
-        "sha512sum": "attr:full_name_legal",
-        "decryptionKey": "attr:last_name_legal"
+        "url": "attr:url",
+        "sha512sum": "attr:sha512sum",
+        "decryptionKey": "attr:decryptionKey"
       }
     }
   }
