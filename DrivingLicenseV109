@@ -10,6 +10,7 @@
       "@context": {
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "attr": "https://ssi.globalid.dev/v1/credentials-library/attributes/",
+        "img": "https://raw.githubusercontent.com/acuderman/test-didcomm/main/Image1",
         "data_file": {
                     "@id": "attr:data_file",
                     "@type": "@id"
@@ -18,11 +19,11 @@
                 "gender_legal": "attr:gender_legal",
                 "selfie_image": {
                     "@id": "attr:selfie_image",
-                    "@type": "xsd:imagejpeg"
+                    "@type": "img:imagejpeg"
                 },
                 "selfie_video": {
                     "@id": "attr:selfie_video",
-                    "@type": "xsd:imagejpeg"
+                    "@type": "img:imagejpeg"
                 },
                 "date_of_birth": {
                     "@id": "attr:date_of_birth",
@@ -34,11 +35,11 @@
                 "first_name_legal": "attr:first_name_legal",
                 "document_back_image": {
                     "@id": "attr:document_back_image",
-                    "@type": "xsd:imagejpeg"
+                    "@type": "img:imagejpeg"
                 },
                 "document_front_image": {
                     "@id": "attr:document_front_image",
-                    "@type": "xsd:imagejpeg"
+                    "@type": "img:imagejpeg"
                 },
                 "document_date_of_issue": "attr:document_date_of_issue",
                 "date_of_birth_timestamp": "attr:date_of_birth_timestamp",
